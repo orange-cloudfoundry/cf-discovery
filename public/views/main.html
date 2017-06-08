@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col s12">
+        <h2 class="header">Routes</h2>
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">search</i>
+                    <input id="search" ng-model="search" ng-change="searchFunc()" type="text" class="validate">
+                    <label for="search">Search</label>
+                </div>
+            </div>
+        </form>
+        <div class="collection">
+            <a target="_blank" ng-repeat="route in routes" ng-href="https://{{route}}"
+               class="collection-item">{{route}}</a>
+        </div>
+    </div>
+
+</div>

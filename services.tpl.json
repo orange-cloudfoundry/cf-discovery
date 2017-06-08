@@ -1,0 +1,14 @@
+{
+  "gorouter_username": "user",
+  "gorouter_password": "password",
+  "gorouter_endpoint": "/routes",
+  "gorouter_port": 8080,
+  "gorouter_protocol": "http",
+  "filtered_domains": [
+    "my.private.domain.com"
+  ],
+  "gorouter_backends": [
+    "10.0.0.1",
+    "10.0.0.2"
+  ]
+}

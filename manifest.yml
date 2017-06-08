@@ -1,0 +1,7 @@
+name: cf-discovery
+memory: 64M
+buildpack: go_buildpack
+env:
+  GOPACKAGENAME: "github.com/orange-cloudfoundry/cf-discovery"
+services:
+- cf-discovery-config
